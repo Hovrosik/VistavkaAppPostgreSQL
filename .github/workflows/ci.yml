@@ -15,7 +15,7 @@ jobs:
 
       - name: BuildDocker image
         run: |
-          docker build -t myapp:test .
+          docker build -t myapp:test -f VistavkaApp/Dockerfile .
           echo "Docker image built successfully!"
 
       - name: Test container
