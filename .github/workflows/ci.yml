@@ -15,8 +15,8 @@ jobs:
 
       - name: BuildDocker image
         run: |
-        docker build -t myapp:test .
-        echo "Docker image built successfully!"
+          docker build -t myapp:test .
+          echo "Docker image built successfully!"
 
       - name: Test container
         run: |
