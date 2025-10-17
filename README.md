@@ -1,3 +1,3 @@
 # My Project
 
-![CI Status](https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/workflows/CI%20Pipeline/badge.svg)
+![CI Status](https://github.com/Hovrosik/VistavkaAppPostgreSQL/workflows/CI%20Pipeline/badge.svg)
