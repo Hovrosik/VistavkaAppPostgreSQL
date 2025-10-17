@@ -4,11 +4,11 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
 # Копируем файлы проекта и восстанавливаем зависимости
-COPY *.csproj .
+COPY  VistavkaApp/*.csproj .
 RUN dotnet restore
 
 # Копируем все остальные исходные файлы и публикуем приложение
-COPY . .
+COPY  VistavkaApp/ .
 RUN dotnet publish -c Release -o /app/publish
 
 # --- Стадия выполнения (runtime) ---
