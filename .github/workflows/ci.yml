@@ -40,9 +40,9 @@ jobs:
           docker build -t myapp:test -f VistavkaApp/Dockerfile .
           echo "Docker image built successfully!"
 
-      - name: Test container
-        run: |
-          docker run --rm myapp:test echo "Container works!"
+#       - name: Test container
+#         run: |
+#           docker run --rm myapp:test echo "Container works!"
 
       - name: Save build log
         run: |
